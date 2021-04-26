@@ -1,0 +1,13 @@
+server:
+  port: 6001
+
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/department_service
+    username: root
+    password: Suren@66
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
